@@ -1,2 +1,2 @@
 x = input("Ingresa tu nombre")
-print("Jose")
+print(f"{x}")
