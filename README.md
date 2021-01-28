@@ -25,6 +25,11 @@ TABLA DE CONTENIDO
 
 [Visita mi pagina](https://www.unah.edu.hn/)
 
+columna 1 | columna 2
+--------- | ---------
+64 | 26
+44 | 37
+
 Este conjunto de problemas le dará a conocer el tema de la creación de funciones en Python, así como mecanismos de bucle para repetir un proceso de cálculo hasta que se alcanza una condición. Deberá guardar sus códigos (3) con su primer nombre y su primer apellido, seguido del problema de aplicación y la parte del problema que representa el código pa02_parte1.py (Lois_Lane_pa02_parte1.py, Lois_Lane_pa02_parte2.py, Lois_Lane_pa02_parte3.py). ¡No olvide incluir comentarios para ayudar a entender su código!
 
 PROBLEMA 1: EL AHORCADO BÁSICO
