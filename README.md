@@ -3,6 +3,7 @@
 Este conjunto de problemas le dará a conocer el tema de la creación de funciones en Python, así como mecanismos de bucle para repetir un proceso de cálculo hasta que se alcanza una condición. Deberá guardar sus códigos (3) con su primer nombre y su primer apellido, seguido del problema de aplicación y la parte del problema que representa el código pa02_parte1.py (Lois_Lane_pa02_parte1.py, Lois_Lane_pa02_parte2.py, Lois_Lane_pa02_parte3.py). ¡No olvide incluir comentarios para ayudar a entender su código!
 
 PROBLEMA 1: EL AHORCADO BÁSICO
+-----------------------------
 Vas a implementar una variación del juego clásico de palabras Ahorcado. Si no estás familiarizado con las reglas del juego, puedes leer https://es.wikipedia.org/wiki/Ahorcado_(juego). ¡No te sientas intimidado por este problema, realmente es más fácil de lo que parece! Vamos a abordar este problema, guiándolo a través de la creación de funciones de ayuda antes de implementar el juego real.
 A)	INTRODUCCIÓN
 Descarga los archivos “ahorcado_detallado.py” y “palabras.txt” y guarda ambos en el mismo directorio. Ejecuta el archivo ahorcado.py antes de escribir algún código para asegurarse que sus archivos se guardan correctamente. El código que se te ha dado carga las palabras desde un archivo. Deberías ver la siguiente salida en el Shell de IPython:
@@ -25,7 +26,8 @@ b.	penalizar al usuario y actualiza el número de conjeturas restantes
 
 
  
-PROBLEMA 2. 
+PROBLEMA 2.
+-----------
 AHORCADO PARTE 1: TRES FUNCIONES DE AYUDA
 Antes de que tengas que escribir el código para organizar el juego del ahorcado, vamos a dividir el problema en subtareas lógicas, creando tres funciones auxiliares que necesitarás tener para que este juego funcione. Este es un enfoque común para la resolución de problemas computacionales, y uno que queremos que comiences a experimentar.
 El archivo ahorcado.py tiene una serie de funciones ya implementadas que puede utilizar al redactar su solución. Puede ignorar el código en las dos funciones en la parte superior del archivo que ya se han implementado para usted, aunque debe comprender cómo usar cada función auxiliar leyendo los docstrings.
@@ -69,6 +71,7 @@ bcdefghjklnoqtuvwxyz
 
  
 PROBLEMA 3
+----------
 EL AHORCADO PARTE 2: EL JUEGO
 Ahora que ha creado algunas funciones útiles, puede pasar a implementar la función hangman, que toma un parámetro - secret_word que el usuario debe adivinar. Inicialmente, puede (¡y debería!) configurar manualmente esta palabra secreta cuando ejecute esta función - esto hará que sea más fácil probar su código. Pero al final, deseará que la computadora seleccione esta palabra secreta al azar antes de invitarlo a usted u otro usuario a jugar el juego ejecutando esta función.
 Llamar a la función hangman inicia un juego interactivo de Ahorcado entre el usuario y la computadora. Al diseñar su código, asegúrese de aprovechar las tres funciones de ayuda, is_word_guessed, get_guessed_word y get_available_letters, que ha definido en la parte anterior.
@@ -86,7 +89,6 @@ Ejemplo de implementación del juego
 78566 palabras cargadas.
 Bienvenido al juego de Ahorcados!
 Estoy pensando en una palabra que tiene 4 letras
----------------------
 Tienes 6 intentos restantes
 Letras disponibles: abcdefghijklmnopqrstuvwxyz
 
@@ -128,7 +130,6 @@ Tienes 6 intentos restantes
 Letras disponibles: bcdefghijklmnopqrstuvwxyz
 Por favor ingresa una letra: s
 Oops! Esa letra no está en mi palabra: _ a_ _
-----------------------
 Tienes 5 intentos restantes
 Letras disponibles: bcdefghijklmnopqrtuvwxyz
 Por favor ingresa una letra: $
@@ -151,12 +152,10 @@ Tienes 5 intentos restantes
 Letras disponibles: bcdefghijklmnopqrtuvwxyz
 Por favor ingresa una letra: m
 Buen intento: ma_ _
-----------------------
 Tienes 5 intentos restantes
 Letras disponibles: bcdefghijklnopqrtuvwxyz
 Por favor ingresa una letra: e
 Oops! Esa letra no está en mi palabra: ma_ _
-----------------------
 Tienes 3 intentos restantes
 Letras disponibles: bcdfghijklnopqrtuvwxyz
 Por favor ingresa una letra: e
@@ -177,12 +176,10 @@ Tienes 3 intentos restantes
 Letras disponibles: bcdefghijklnopqrtuvwxyz
 Por favor ingresa una letra: n
 Buen intento: man_
-----------------------
 Tienes 3 intentos restantes
 Letras disponibles: bcdefghijklmopqrtuvwxyz
 Por favor ingresa una letra: o
 Buen intento: mano
-----------------------
 ¡Felicitaciones, has ganado!
 Tu puntaje total para este juego es: 12
 
