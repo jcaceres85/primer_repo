@@ -16,6 +16,8 @@ Este conjunto de problemas le dará a conocer el tema de la creación de funcion
 Colaboración
 Puedes trabajar en parejas. Sin embargo, cada estudiante debe escribir y entregar su tarea por separado. Asegúrese de indicar con quién ha trabajado en los comentarios de su presentación.
 
+[Visita la página de la UNAH](https://www.unah.edu.hn/)
+
 INTRODUCCIÓN
 ----------------
 Vas a implementar una variación del juego clásico de palabras Ahorcado. Si no estás familiarizado con las reglas del juego, puedes leer https://es.wikipedia.org/wiki/Ahorcado_(juego). ¡No te sientas intimidado por este problema, realmente es más fácil de lo que parece! Vamos a abordar este problema, guiándolo a través de la creación de funciones de ayuda antes de implementar el juego real.
