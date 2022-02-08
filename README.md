@@ -1,3 +1,7 @@
+# JUEGO DEL AHORCADO
+
+#### Por José Cáceres
+
 ![Logo_UNAH](https://www.unah.edu.hn/themes/portalunah/assets/images/logo-unah.png)
 
 TABLA DE CONTENIDO
