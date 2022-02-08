@@ -6,9 +6,11 @@ Colaboración
 Puedes trabajar en parejas. Sin embargo, cada estudiante debe escribir y entregar su tarea por separado. Asegúrese de indicar con quién ha trabajado en los comentarios de su presentación.
 
 INTRODUCCIÓN
+----------------
 Vas a implementar una variación del juego clásico de palabras Ahorcado. Si no estás familiarizado con las reglas del juego, puedes leer https://es.wikipedia.org/wiki/Ahorcado_(juego). ¡No te sientas intimidado por este problema, realmente es más fácil de lo que parece! Vamos a abordar este problema, guiándolo a través de la creación de funciones de ayuda antes de implementar el juego real.
 
 INSTRUCCIONES
+--------------
 Descarga los archivos “ahorcado_detallado.py” y “palabras.txt” y guarda ambos en el mismo directorio. Ejecuta el archivo ahorcado.py antes de escribir algún código para asegurarse que sus archivos se guardan correctamente. El código que se te ha dado carga las palabras desde un archivo. Deberías ver la siguiente salida en el Shell de IPython:
 	Cargando lista de palabras desde archivo...
     78566 palabras cargadas.
@@ -17,6 +19,7 @@ Si ve el texto anterior, continúe con los Requisitos del Juego Ahorcado.
 
 
 REQUISITOS DEL JUEGO AHORCADOS
+-------------
 Implementarás una función llamada hangman que permitirá al usuario jugar al ahorcado contra la computadora. La computadora elige la palabra y el jugador intenta adivinar las letras de la palabra.
 Aquí está el comportamiento general que queremos implementar. ¡No te intimides! Esta es solo una descripción: dividiremos esto en pasos y proporcionaremos más especificaciones funcionales más adelante en la descripción del problema, así que ¡sigue leyendo!
 La computadora debe seleccionar una palabra al azar de la lista de palabras disponibles que se proporcionó en words.txt
